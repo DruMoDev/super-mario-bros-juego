@@ -23,18 +23,18 @@ new Phaser.Game(config);
 
 function preload() {
   // Load images
-  this.load.image("cloud1", "assets/scenery/overworld/cloud1.png");
-  this.load.image("floorbricks", "assets/scenery/overworld/floorbricks.png");
+  this.load.image("cloud1", "./assets/scenery/overworld/cloud1.png");
+  this.load.image("floorbricks", "./assets/scenery/overworld/floorbricks.png");
 
   // Load spritesheets
-  this.load.spritesheet("mario", "assets/entities/mario.png", {
+  this.load.spritesheet("mario", "./assets/entities/mario.png", {
     frameWidth: 18,
     frameHeight: 16,
   });
 
   // Load audio
-  this.load.audio("worl", "assets/sound/music/overworld/theme.mp3");
-  this.load.audio("jump", "assets/sound/effects/jump.mp3");
+  this.load.audio("worl", "./assets/sound/music/overworld/theme.mp3");
+  this.load.audio("jump", "./assets/sound/effects/jump.mp3");
 }
 
 function create() {

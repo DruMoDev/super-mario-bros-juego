@@ -23,7 +23,7 @@ new Phaser.Game(config);
 
 function preload() {
   // Load images
-  this.load.image("cloud1", "./assets/scenery/overworld/cloud1.png");
+  this.load.image("cloud1", "D:\DRU\Programación\Proyectos-propios-para-practicar\Proyectos-MonoRepositorio\super-mario-bros-juego\assets\scenery\overworld\cloud1.png");
   this.load.image("floorbricks", "./assets/scenery/overworld/floorbricks.png");
 
   // Load spritesheets

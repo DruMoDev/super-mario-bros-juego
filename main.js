@@ -28,7 +28,7 @@ function preload() {
   this.load.image("floorbricks", "/scenery/overworld/floorbricks.png");
 
   // Load spritesheets
-  this.load.spritesheet("mario", "/entities/mario.png", {
+  this.load.spritesheet("mario", "/mc/bebemc.png", {
     frameWidth: 18,
     frameHeight: 16,
   });
